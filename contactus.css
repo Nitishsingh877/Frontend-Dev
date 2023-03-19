@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+   max-width: 1440px;
+   background-color:#f0f4f5;
+   overflow: hidden;
+   margin: auto;
+}
+nav {
+    height: 15vh;
+      display: flex;
+      align-items: center;
+      margin: 50px;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+img[alt="logomu"] {
+    display: flex;
+   
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: right;
+   
+  
+}
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.container {
+    width: 350px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px lightgrey;
+       border-radius: 10px;
+    }
+main h1  {
+        color:black;
+        margin-top: 10%;
+        font-weight: 900;
+        font-size: 35px;
+    }
+    main h2  {
+        color:black;
+        margin-left: -77%;
+        margin-top: 3%;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    main h3  {
+        color:black;
+        margin-left: -70%;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .input {
+        margin-top: 2%;
+        margin-left: -5%;
+        width: 300px;
+        border-style: none;
+        border-radius: 6px;
+        border: transparent;
+
+        
+    }
+    .input-message {
+        margin-top: 2%;
+        margin-left: -5%;
+        width: 300px;
+        height: 120px;
+        border-style: none;
+        border-radius: 6px;
+        border: transparent;
+    }
+    main button {
+        margin-left: -5%;
+        margin-top: 2%;
+        height: 49px;
+        width: 300px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: #20BC7E;
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }

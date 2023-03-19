@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+   max-width: 1440px;
+   background-color:#f0f4f5;
+   overflow: hidden;
+   margin: auto;
+}
+nav {
+    height: 15vh;
+      display: flex;
+      align-items: center;
+      margin: 50px;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+img[alt="logomu"] {
+    display: flex;
+   
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: right;
+   
+  
+}
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.middle-section {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.middle-section h1 {
+    font-size: 30px;
+    color: rgb(45, 196, 136);
+    font-weight:900;
+}
+.middle-section p {
+    margin-top: 1%;
+    font-size: 18px;
+    font-weight: 450;
+}
+.middle-section p span {
+    font-size: 16.5px;
+    font-weight: 500;
+}
+.span2 {
+    font-size: 16px;
+    margin-left: 15%;
+}
+.cards {
+    width:100% ;
+    height: 300px;
+    
+}
+.container {
+display: flex;
+flex-direction: column;
+width: 190px;
+height: 100px;
+justify-content: center;
+box-shadow: 0px 0px 10px 10px lightgrey;
+background-color: #fff;
+margin-top: 4%;
+margin-left: 27%;
+   border-radius: 10px;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 100px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 10px lightgrey;
+    background-color: #fff;
+    margin-top: -6.5%;
+    margin-left: 43%;
+    border-radius: 10px;
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 100px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 10px lightgrey;
+    background-color: #fff;
+    margin-top: -6.5%;
+    margin-left: 59%;
+    border-radius: 10px;
+}
+.cards h1 {
+    text-align: center;
+    color: rgb(45, 196, 136);
+    font-weight: 900;
+    font-size: 30px;
+}
+.cards h2 {
+    text-align: center;
+    font-weight: 600;
+}
