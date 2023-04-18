@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 60px 40px;
+    background-color: rgb(97, 150, 197);
+}
+.button1 {
+    margin-top: 6px;
+    width: 100px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.label {
+    font-weight: 700;
+}
+#final-result {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 15px;
+}
