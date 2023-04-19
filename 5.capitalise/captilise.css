@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    box-shadow: 0 0 70px rgb(229, 12, 12);
+}
