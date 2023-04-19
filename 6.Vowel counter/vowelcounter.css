@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+    background-color: rgb(139, 139, 215);
+    border-radius: 15px;
+    box-shadow: 0 0 100px red;
+    
+}
+.result {
+    margin-top: 5px;
+    font-weight: 700;
+}
